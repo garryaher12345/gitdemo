@@ -1,0 +1,30 @@
+    1  cat /etc/passwd
+    2  who i am
+    3  netstat -tulpn
+    4  ps -ef|grep 2664
+    5  ps -ef
+    6  vi /etc/ssh/sshd_config
+    7  service sshd restart
+    8  clear
+    9  passwd
+   10  history
+
+
+    1  ll /etc/yum.repos.d/
+    2  cat /etc/yum.repos.d/amzn2-core.repo
+    3  yum install httpd
+    4  rpm -qa|grep httpd
+    5  yum install git -y
+    6  cd /opt
+    7  mkdir -p /opt/gitdemo
+    8  cd gitdemo/
+    9  ls
+   10  git init
+   11  vi linuccmd.txt
+   12  ls
+   13  mv linuccmd.txt linuxcmd.txt
+   14  ls
+   15  history
+
+
+
