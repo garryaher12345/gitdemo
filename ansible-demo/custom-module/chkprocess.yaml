@@ -1,0 +1,11 @@
+---
+- hosts: all
+  user: ec2-user
+
+  tasks:
+    - name: Check if process running
+      action: chkprocess process=httpd
+      register: process
+      become: yes
+
+    - debug: msg="{{ process.msg }}"
